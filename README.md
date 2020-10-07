@@ -35,6 +35,8 @@ oauth=your-personal-access-token-01234567890abcdefgh
 
 Call from a command-line in the root directory of the repository: "gradlew clean build run"
 
+**NOTE** The JDK reflection exception in the beginning of execution is known, see [their bug & explanation](https://github.com/hub4j/github-api/issues/754).
+
 ## How it works
 
 1. The build system Gradle is executing the [main class "Csv2Github.java"](./src/test/java/example/github/issues/Github.java/Csv2Github.java).
