@@ -39,6 +39,6 @@ Call from a command-line in the root directory of the repository: "gradlew clean
 
 ## How it works
 
-1. The build system Gradle is executing the [main class "Csv2Github.java"](./src/main/java/example/github/issues/Github.java/Csv2Github.java).
+1. The build system Gradle is executing the [main class "Csv2Github.java"](./src/main/java/example/github/issues/Csv2Github.java).
 2. The CSV is being parsed line by line by the ["Csv.java" class](./src/main/java/example/github/issues/Csv.java).
 3. GitHub is accessed via the ["Github.java" class](./src/main/java/example/github/issues/Github.java) taking advantage of the [Java GitHub API of Kohsuke Kawaguchi](https://github-api.kohsuke.org/).
