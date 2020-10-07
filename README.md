@@ -18,7 +18,7 @@ We initially added Csv2GitHub functionality that allows us the initialization of
 ## Requisition
 
 * Java 11
-* Edit your data list (for instance with LibreOffice) and save the spreadsheet to a [comma separated value text file](./src/main/resources/issues/issue-list.csv)
+* Edit your data list (for instance with [LibreOffice](https://libreoffice.org/)) and save the spreadsheet to a [comma separated value text file](./src/main/resources/issues/issue-list.csv)
 * Provide a new (e.g. private) GitHub repository - where the new issues are being created into:
     Adjust the [REPO_NAME](./src/main/java/example/github/issues/Github.java#L39) variable using your repository.
 * GitHub API access is provided by your GitHub "personal access" token in your user directory in a "~/.github" file, for instance:
