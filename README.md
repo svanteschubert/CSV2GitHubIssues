@@ -2,7 +2,7 @@
 
 ## Overview
 
-The idea is to collect issues in a spreadsheet and save it to a comma-separated-value (CSV) file to import the data as GitHub issues with labels & milestones.
+The idea is to collect issues in a spreadsheet and save it to a comma-separated-value (CSV) file to import the data as GitHub issues with labels & milestones via [API](https://github-api.kohsuke.org/).
 The current downside is that this implementation was based on a very specific spreadsheet structure and there might other structure more useful for your use cases (or in general).
 Pull Requests are welcome. :)
 
