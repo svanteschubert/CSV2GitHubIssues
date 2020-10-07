@@ -36,8 +36,7 @@ class Github {
 
     //original: private static final String REPO_NAME = "svanteschubert/CEN-TC434-WG1";
     // For now invalid entry below: Better be safe than sorry..
-    //private static final String REPO_NAME = "<your_github_ID>/<Your_repository_ID>";
-    private static final String REPO_NAME = "svanteschubert/test";
+    private static final String REPO_NAME = "<your_github_ID>/<Your_repository_ID>";    
     private static final Map<String, GHMilestone> milestoneMap = new HashMap<String, GHMilestone>(5);
 
     static GHRepository getRepository() {

@@ -18,9 +18,9 @@ We initially added Csv2GitHub functionality that allows us the initialization of
 ## Requisition
 
 * Java 11
-* Edit your data list (for instance with LibreOffice) and save the spreadsheet to a [comma separated value text file](./src/test/resources/issues/issue-list.csv)
+* Edit your data list (for instance with LibreOffice) and save the spreadsheet to a [comma separated value text file](./src/main/resources/issues/issue-list.csv)
 * Provide a new (e.g. private) GitHub repository - where the new issues are being created into:
-    Adjust the [REPO_NAME](./src/test/java/example/github/issues/Github.java#L39) variable using your repository.
+    Adjust the [REPO_NAME](./src/main/java/example/github/issues/Github.java#L39) variable using your repository.
 * GitHub API access is provided by your GitHub "personal access" token in your user directory in a "~/.github" file, for instance:
 
 ```javascript
@@ -39,6 +39,6 @@ Call from a command-line in the root directory of the repository: "gradlew clean
 
 ## How it works
 
-1. The build system Gradle is executing the [main class "Csv2Github.java"](./src/test/java/example/github/issues/Github.java/Csv2Github.java).
-2. The CSV is being parsed line by line by the ["Csv.java" class](./src/test/java/example/github/issues/Csv.java).
-3. GitHub is accessed via the ["Github.java" class](./src/test/java/example/github/issues/Github.java) taking advantage of the [Java GitHub API of Kohsuke Kawaguchi](https://github-api.kohsuke.org/).
+1. The build system Gradle is executing the [main class "Csv2Github.java"](./src/main/java/example/github/issues/Github.java/Csv2Github.java).
+2. The CSV is being parsed line by line by the ["Csv.java" class](./src/main/java/example/github/issues/Csv.java).
+3. GitHub is accessed via the ["Github.java" class](./src/main/java/example/github/issues/Github.java) taking advantage of the [Java GitHub API of Kohsuke Kawaguchi](https://github-api.kohsuke.org/).
