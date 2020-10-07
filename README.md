@@ -1,4 +1,4 @@
-# CSV to GitHub issues with labels & milestones
+# EXAMPLE PROJECT: CSV to GitHub issues with labels & milestones
 
 ## Overview
 
