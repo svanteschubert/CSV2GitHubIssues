@@ -1,0 +1,52 @@
+Topic;Description;Planned;Ordering;Domain;Error;National law;Multiple countries;All countries;Tax calculation;Total;Question;Yes;No;Abstain
+1;Include legal text in a structured way.;01/07/2020;;ExtraData;;1;1;1;;1;5;8;5;12
+2;Support for the use of VAT inclusive prices.;;;TaxCalculation;;1;1;1;1;1;6;9;3;13
+3;Support for TaxableAmount to be used to calculate VAT instead of LineExtensionAmount.;;;TaxCalculation;;1;1;;1;1;7;9;3;13
+4;Support for local VAT categories to allow automatic VAT declaration filing.;;;TaxCategory;;1;1;1;;1;8;8;4;13
+5;Support for local VAT exemption reason codes.;;;TaxCategory;;1;1;1;;1;9;8;4;13
+6;Support for finer VAT breakdown to allow automatic VAT declaration filing.;;;TaxCategory;;1;1;1;1;1;10;8;3;14
+7;Support more than 4 decimals at line amount level.;;;TaxCalculation;;1;1;;1;1;11;10;2;13
+8;Support for VAT calculation at line level instead of invoice level;;;TaxCalculation;;1;1;1;1;1;12;9;3;13
+9;Errors in existing version corrections (in text and figures);17/06/2020;12;FastNEasy;1;;;1;;1;13;10;3;12
+10;Business rules not in line with Directive 2006/112/EC;08/07/2020;;TaxExemptions;1;;;1;;1;14;11;2;12
+11;Support for Invoice Issue Time;01/07/2020;;ExtraData;;1;1;;;1;15;8;4;13
+12;Table 3 – BR 50 correction;17/06/2020;13;FastNEasy;1;;;1;;1;16;10;3;12
+13;A.3.1 Taxes other than VAT correction;17/06/2020;14;FastNEasy;;1;;;1;1;17;10;2;13
+14;Support for XML attachments.;01/07/2020;;ExtraData;;;;1;;1;18;10;3;12
+15;Create an XML model for structured description of a CIUS.;;;General;;;;;;1;19;8;4;13
+16;Support for German Skonto;01/07/2020;;ExtraData;;1;;;1;1;20;6;4;15
+17;Grouping invoice lines by using sublines;24/06/2020;;Grouping;;;;;;1;21;8;5;12
+18;Missing business rule for BT-131;17/06/2020;15;FastNEasy;1;;;1;;1;22;9;3;13
+19;Support for more detailed information in paid amounts;;;Payments;;1;1;1;;1;23;7;4;14
+20;Support for car spare parts regulation;;;TaxCalculation;;1;1;;1;1;24;6;4;15
+21;Support for extra charges on behalf of a third party that are not part of the invoice;;;Payments;;;1;1;;1;25;8;3;14
+22;Allow VAT identifiers on invoice outside of scope of VAT.;08/07/2020;;TaxExemptions;;1;;1;;1;26;8;3;14
+23;Support for mix of subject to VAT and not subject to VAT on same invoice.;08/07/2020;;TaxExemptions;;1;;1;;1;27;10;3;12
+24;EAS code list;17/06/2020;1;FastNEasy;1;;;1;;1;28;11;2;12
+25;VATEX code list;17/06/2020;2;FastNEasy;1;;;1;;1;29;11;2;12
+26;Support for exemptions and exemption codes at invoice and line level.;08/07/2020;;TaxExemptions;;1;;1;;1;30;8;2;15
+27;Add additional VAT exemption codes D, F, I and J.;08/07/2020;;TaxExemptions;;1;;1;;1;31;9;2;14
+28;Paid amount;;;Payments;1;;;1;;1;32;10;3;12
+29;Support for withholding tax.;;;Payments;;1;;;1;1;33;7;3;15
+30;Modification to 6.5.3 Unit Price Amount. Type;17/06/2020;3;FastNEasy;1;;;1;;1;34;11;2;12
+31;Modification to Table 18;17/06/2020;4;FastNEasy;1;;;1;;1;35;11;2;12
+32;Modification to 6.5.5 Percentage. Type;17/06/2020;5;FastNEasy;1;;;1;;1;36;11;2;12
+33;Modifications to A.1.1Introduction;17/06/2020;6;FastNEasy;1;;;1;;1;37;11;2;12
+34;Modifications to A.1.2 Example 1 (Different Invoiced item VAT rates);17/06/2020;7;FastNEasy;1;;;1;;1;38;11;2;12
+35;Modifications to A.1.3 Example 2 (Item price base quantity);17/06/2020;8;FastNEasy;1;;;1;;1;39;11;2;12
+36;Modifications to A.2 Number of decimals and rounding;17/06/2020;9;FastNEasy;1;;;1;;1;40;11;2;12
+37;Modifications to A.3.1Taxes other than VAT;17/06/2020;10;FastNEasy;1;;;1;;1;41;11;2;12
+38;Modifications to A.3.4 Payment Instructions;17/06/2020;11;FastNEasy;1;;;1;;1;42;11;2;12
+39;Support for split payment as in the IT A-Deviation.;;;Payments;;1;;;1;1;43;9;3;13
+40;Calculation of BT-131 not checked.;17/06/2020;16;FastNEasy;1;;;1;;1;44;10;3;12
+41;Improve check on negative lines.;17/06/2020;17;FastNEasy;1;;;1;;1;45;8;3;14
+42;Item price base quantity;17/06/2020;18;FastNEasy;1;;;1;;1;46;11;2;12
+43;Support for representation of social security fund as an invoice and in a uniform way.;08/07/2020;;TaxExemptions;;;;;;1;47;8;3;14
+44;Support for Stamp Duty (or taxes other than VAT) in a uniform way.;;;TaxCalculation;;1;;;;1;48;8;2;15
+45;Support for split payment.;;;Payments;;1;1;;1;1;49;9;2;14
+46;Support for different ways of calculating VAT.;;;TaxCalculation;;1;1;1;1;1;50;10;3;12
+47;Support for a second actor next to the buyer.;;;Payments;;1;;;;1;51;7;3;15
+48;Revision of the VAT categories table;;;TaxCategory;;1;1;1;1;1;52;9;3;13
+49;Multiple delivery references at line level;24/06/2020;;Grouping;;1;1;1;1;1;53;9;2;14
+50;Multiple order references at line level;24/06/2020;;Grouping;;1;1;1;1;1;54;9;2;14
+;;;;;19;26;17;36;15;50;;460;140;650

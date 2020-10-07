@@ -1,0 +1,12 @@
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+	implementation 'org.kohsuke:github-api:1.113'
+}
+
+mainClassName  = 'example.github.issues.Csv2Github'
